@@ -46,6 +46,7 @@ var defaults = (function () {
 
 gulp.task('bower', shell.task([
   'bower install angular --save',
+  'bower install ui-router --save',
   'echo angular installed...'
 ]));
 
